@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+body {
+    background-color: #f5f6fa;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation {
+    position: fixed;
+    background-color: rgba(0, 153, 255, 0.5);
+    width: 100%;
+    padding: 10px;
+    text-align:right;
+}
+
+.navigation > .links .link {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navigation > .links .link a {
+    font-weight: 400;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.call-to-action {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSDxBHDmXfcuSROnztTFaJd5vjayiEFzAPnSjl6k-vRGLUtKmuv");
+    height: 40em;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action h1, h3 {
+    color: #f5f6fa;
+    text-align: center;
+    margin: 0;
+}
+
+content {
+    margin: 100px 0;
+}
+
+.content.tagline {
+    text-align: center;
+    font-size: 2em;
+}
+
+#about .about img {
+    max-width: 300px;
+    height: auto;
+}
+
+#about .about p {
+    font-size: 25px;
+}
+
+#portfolio .portfolio ul {
+    padding-left: 0;
+}
+
+#portfolio .portfolio ul li {
+    display: inline;
+}
+
+#contact .contact-links {
+    padding: 30px;
+}
+
+#contact .contact-links a {
+    color: #000;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 10px;
+}
+
+footer {
+    padding: 15px;
+    background-color: #273c75;
+    text-align: center;
+    color: #FFF;
+}
+h2 {
+    text-align: center;
+}
