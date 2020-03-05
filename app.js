@@ -18,3 +18,6 @@ if(age > 20) {
     document.querySelector('#enter').className = 'denied';
 }
 
+function myFunction() {
+    location.replace("https://www.google.com")
+  }
